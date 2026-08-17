@@ -1,0 +1,107 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    line-height: 1.45;
+}
+
+body {
+    margin: 0;
+    background-color: #f7f4ec;
+    font-size: 13px;
+
+    /* absichtlich noch nicht responsiv */
+    min-width: 980px;
+}
+
+header {
+    width: 920px;
+    margin: 0 auto;
+    padding: 18px 20px;
+    background-color: #a9c5bd;
+}
+
+.logo {
+    color: #eef4f2;
+    font-size: 34px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.untertitel {
+    margin-top: 4px;
+    color: #f2f2f2;
+}
+
+nav {
+    width: 920px;
+    margin: 10px auto;
+    padding: 7px 20px;
+    background-color: #eeeeee;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 28px;
+    color: #8a8a8a;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+main {
+    width: 920px;
+    margin: 0 auto;
+    padding: 22px 20px 30px 20px;
+    background-color: white;
+}
+
+h1 {
+    color: #9caaa6;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+h3 {
+    margin-top: 28px;
+    color: #777777;
+}
+
+.hinweis {
+    margin: 22px 0;
+    padding: 8px 12px;
+    background-color: #f2edcc;
+    font-size: 12px;
+}
+
+.angebot {
+    display: inline-block;
+    vertical-align: top;
+    width: 27%;
+    min-height: 145px;
+    margin: 1%;
+    padding: 10px;
+    border: 1px solid #eeeeee;
+}
+
+.angebot h4 {
+    margin-top: 0;
+}
+
+.infobereich,
+.kontakt {
+    margin-top: 26px;
+    padding: 8px 14px;
+    background-color: #fafafa;
+}
+
+.kontakt a {
+    color: #858585;
+}
+
+footer {
+    width: 920px;
+    margin: 12px auto;
+    padding: 8px 20px;
+    color: #9a9a9a;
+    font-size: 11px;
+    text-align: center;
+}
